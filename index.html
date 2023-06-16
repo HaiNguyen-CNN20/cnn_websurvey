@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logoCNN.svg"  type="image/gif" sizes="16x16"/>
+    <title>Khảo sát</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script2.js"></script>
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-style pt-3 pb-3">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold logo-nav" href="/" title="Connect Pharm"><img src="/picture/logo.svg" alt=""></a>
+          <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active sub-title" aria-current="page" href="https://drive.google.com/file/d/1E3F9T7yydUiVtPgHmLf23NTcOL2yJIRL/view">Hướng dẫn sử dụng<br> Website</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sub-title" href="#">Hướng dẫn sử dụng<br> Mobile App</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col p-0  panel-pc">
+                <img src="/picture/Main_banner.png" class="img-fluid" width="100%">
+            </div>
+            <div class="col p-0 panel-phone" style="display: none;">
+                <img src="/picture/panel.png" class="img-fluid" width="100%">
+            </div>
+        </div>
+        <div class="container-fluid count-bg px-0 mx-0">
+            <div class="row bg-white height-bg " >
+                <div class="col-xl-4 col-6 card-count">
+                    <div class=" row count-set border-dk " onscroll="countToF()">
+                        <div class="col-12 countDK counter font-number">205</div>
+                        <div class="col-12 countDK font-dk">Đã đăng ký khảo sát</div>
+                    </div>
+                    
+                </div> 
+                <div class="col-xl-4 col-6 card-count">
+                    <div class=" row count-set border-dk2" onscroll="countToF()">
+                        <div class="col-12 countDK counter font-number">78</div>
+                        <div class="col-12 countDK font-dk">Đang tham gia khảo sát</div>
+                    </div>
+                    
+                </div> 
+                <div class="col-xl-4 col-12 pt-4 card-count" onscroll="countToF()">
+                    <div class=" row count-set">
+                        <div class="col-12 countDK counter font-number">43</div>
+                        <div class="col-12 countDK font-dk">Đã tham gia khảo sát</div>
+                    </div>
+                    
+                </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row pb-5">
+                <div class="row pt-3 pb-3">
+                    <div class="col section-title text-center">THỂ LỆ CHƯƠNG TRÌNH </div>
+                </div>
+
+                <div class="row mini_panel1">
+                    <div class="row">
+                        <div class="col ">
+                            <p class="trainghiem" >Trải nghiệm website:    <a href="https://trungtamduocpham.com">    <u>trungtamduocpham.com</u></a></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 pt-3">
+                            <div class="border-card mobile-res hover-card">
+                                <div class="col-md-auto div-card title-margin ">
+                                    <span>Đăng ký tham gia</span>
+                                </div>
+                                <div class="div2">                        
+                                    <img class="Register" src="/picture/JoinRegister.svg" alt="">
+                                    <div>
+                                        <div class="time_bounce my-1">Thời gian: Từ 5 - 7/6/2023</div>
+                                    </div>                                
+                                </div>     
+                                <button class="bnt disable-btn">
+                                    <a class="disable-btn" href="https://tinyurl.com/TTDP2">
+                                        Đăng ký ngay
+                                    </a>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4 pt-3">
+                            <div class="border-card mobile-res hover-card">
+                                <div class="col-md-auto div-card title-margin">
+                                    <div class="">Trải nghiệm website</div>
+                                </div>
+                                <div class="">
+                                    <img class="Experience" src="/picture/UXweb.svg" alt="">
+                                    <div class="time_bounce my-1">Từ 13 - 19/6/2023</div>
+                                </div>
+                                <button class="bnt blob green"><a href="https://tinyurl.com/WEBL2">Tham gia ngay</a></button>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-4 pt-3">
+                            <div class="border-card mobile-res hover-card">
+                                <div class="col-md-auto div-card title-margin">Trao quà</div>
+                                <div class="">
+                                    <img class="Gift" src="/picture/gift.svg" alt="">
+                                    <div class="pt-4 time_bounce_last"></div>
+                                </div>
+                                <button class="bnt disable-btn">Từ 20/6 - 7/7/2023</button>
+                            </div>
+                            
+                        </div>          
+                    </div>
+                </div>
+                           
+            </div>
+        </div>
+        
+        <div class="container-fluid  px-0 mx-0" >
+            <div class="row bg-white" width="100%">
+                <div class="row pt-3 pb-3">
+                    <div class="col">
+                        <h1 class="section-title tintucCT"> Tin tức về chương trình </h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="row">
+                        <div class="col-lg-6 offset-md-3 pb-5 ipad-res ip-res">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button title-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Thông báo chương trình trải nghiệm sàn TMĐT Dược phẩm (Bản PC)
+                                    </button>
+                                  </h2>
+                                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-news">
+                                        <p class="sub-title-news pb-0.5">Thông báo chương trình trải nghiệm sàn TMĐT Dược phẩm (Bản PC)</p>
+                            
+                                        <div class="sub-title-news1"> MÓN QUÀ TRI ÂN, NGÀN LẦN TRÂN QUÝ</div>
+                                        <span class="pb-4"><i>Đồng hành cùng Gonsa & CNN Trải nghiệm mua sắm online</i></span><br>
+                                        <span>
+                                            Lời đầu tiên, Ban dự án EC xin gửi lời tri ân tới quý ACE đã tham gia trải nghiệm mua sắm online sàn TMĐT Dược phẩm đợt 1(14-21.4.2023). Nối tiếp thành công của chương trình trước, Ban dự án EC kêu gọi quý ACE tiếp tục hưởng ứng tham gia chương trình đợt 2. Hy vọng tất cả ACE GONSA sẽ cùng tham gia (bao gồm những Anh/ Chị đã trải nghiệm lần 1 và các thành viên mới đăng kí lần này), để đưa ra những đánh giá, cải tiến hơn nữa cho dự án sàn TMĐT này.
+                                        </span>
+                                        
+                                        <br>
+                                        <span class="pt-4"><strong>Thông tin chương trình cụ thể như sau:</strong></span><br>
+                                        <span>Đối tượng: Nội bộ - Tất cả thành viên đại gia đình Gonsa</span><br>
+                                        <span>Nội dung: Trải nghiệm mua sắm online tại sàn TMĐT (trungtamduocpham.com) và điền thông tin khảo sát đánh giá.</span><br>
+                                        <span>Thời gian: </span>
+                                        <ul>
+                                            <li>Đăng ký : 05 - 07/06/2023 (Link đăng ký : <a style="color: #4CB748;"  href="https://tinyurl.com/TTDP2">Tại đây</a> )</li>
+                                            <li>Trải nghiệm : 13 - 19/06/2023 (Link khảo sát :<a style="color: #4CB748;"  href="https://tinyurl.com/WEBL2">Tại đây</a> )</li>
+                                            <li>Thông báo kết thúc và tặng quà tri ân: 20/06 - 07/07/2023</li>
+                                        </ul>
+                                        <span class="pt-4">Vì tính chất bảo mật của dự án, chương trình trải nghiệm chỉ dành cho người nội bộ, quý ACE mình không chia sẻ thông tin ra bên ngoài nhé.</span>
+                                        <span>Rất mong nhận được sự tham gia nhiệt tình của quý ACE. Ban dự án EC vô cùng biết ơn và đánh giá cao những đóng góp của quý ACE trong việc cải thiện sàn TMĐT để đưa ra phiên bản tốt nhất đến với khách hàng.<br></span>
+                                        <span>Đặc biệt, quý ACE nhanh tay đăng ký tham gia để nhận ngay một phần quà tri ân cực hấp dẫn thay cho lời cảm ơn từ Ban dự án EC dành cho sự đóng góp quý báu của quý ACE nhé!!!</span><br>
+                                        <span>Đừng quên theo dõi Email và Fanpage Gia đình Gonsa để không bỏ lỡ tin tức về chương trình nhé.</span><br>
+                                        <br>
+                                        <span>
+                                            <i>#trungtamduocpham #trainghiem #thaotacnguoidung #thongbao</i>
+                                        </span>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed title-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo">
+                                        Đăng ký chương trình trải nghiệm sàn TMĐT Dược phẩm (Bản PC)
+                                    </button>
+                                  </h2>
+                                  <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-news">
+                                        <br>
+                                        <span class="sub-title-news"><i>Đăng ký tham gia trải nghiệm thao tác người dùng trên sàn TMĐT Dược Phẩm</i></span><br>
+                            
+                                        <span  class="sub-title-news1">MÓN QUÀ TRI ÂN, NGÀN LẦN TRÂN QUÝ</span><br>
+                                        <span>Đồng hành cùng Gonsa & CNN Trải nghiệm mua sắm online</span><br>
+                            
+                                        <span>Chương trình trải nghiệm thao tác người dùng trên sàn TMĐT Dược phẩm đã chính thức quay trở lại rồi đây. Bạn đã sẵn sàng tham gia và đóng góp những ý kiến quý giá cho sự phát triển của sàn TMĐT?</span><br>
+                            
+                                        <span><strong>Thông tin chương trình cụ thể như sau:</strong></span><br>
+                                        <span>Thời gian đăng ký : 05 - 07/06/2023</span><br>
+                                        <span>Link đăng ký : <a style="color: #4CB748;" href="https://tinyurl.com/TTDP2">Tại đây</a> </span><br>
+                                        <br>
+                                        <span>Mục tiêu: Ban dự án EC mong muốn sàn TMĐT mang đến trải nghiệm tốt nhất cho người dùng. Điều này bao gồm tính dễ sử dụng, tốc độ tải trang nhanh chóng, giao diện thân thiện và tính năng hữu ích. Bằng cách tham gia chương trình trải nghiệm thao tác người dùng, quý ACE đã góp phần làm cho sàn TMĐT trở nên tuyệt vời hơn.</span><br><br>
+                                        <span>Khi tham gia, quý ACE thoải mái thực hiện các thao tác trên sàn và chia sẻ ý kiến của mình với Ban dự án EC. Điều này có thể bao gồm việc thử các tính năng mới, tìm kiếm thông tin, mua sắm, hoặc bất kỳ hoạt động nào khác. Ý kiến và phản hồi của quý ACE sẽ giúp Ban dự án hiểu rõ hơn về những gì hoạt động tốt và những điều cần cải thiện.</span><br><br>
+                                        <span>Bảo mật Vì tính chất bảo mật của dự án, chương trình trải nghiệm chỉ dành cho người nội bộ, quý ACE mình không chia sẻ thông tin ra bên ngoài nhé.</span><br>
+                                        <br>
+                                        <span>Tham gia ngay: Hãy trở thành một phần ý nghĩa cho sự phát triển của sàn TMĐT Dược phẩm, Ban dự án EC vô cùng biết ơn và đánh giá cao những đóng góp của quý ACE.</span><br>
+                                        <br>
+                                        <span>
+                                            <i>#trungtamduocpham #trainghiem #thaotacnguoidung #dangky</i></span><br>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed title-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Kich off chương trình trải nghiệm sàn TMĐT Dược phẩm (Bản PC)
+                                    </button>
+                                  </h2>
+                                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body text-news">
+                                        <br>
+                                        <span class="sub-title-news">Kich off chương trình trải nghiệm sàn TMĐT Dược phẩm (Bản PC)</span><br>
+                                        <br>
+                                        <span>Kick-off chương trình trải nghiệm mua sắm online sàn TMĐT Dược phẩm đợt 2.</span><br>
+                                        <span>Ban dự án EC rất vui mừng thông báo về chương trình trải nghiệm mua sắm online sàn TMĐT Dược phẩm chính thức quay trở lại!!! Sàn TMĐT trungtamduocpham.com đã sẵn sàng để quý ACE có thể trải nghiệm.</span><br>
+                                        <br>
+                                        <span><strong>Thông tin chương trình cụ thể như sau:</strong></span><br>
+                                        <ul>
+                                            <li><span>Thời gian: 13/6/2023-19/6/2023</span></li>
+                                            <li><span>Website: trungtamduocpham.com</span></li>
+                                            <li><span>Hướng dẫn thao tác và nội dung trải nghiệm:  <a style="color: #4CB748;" href="https://drive.google.com/file/d/1E3F9T7yydUiVtPgHmLf23NTcOL2yJIRL/view">Tài liệu</a></span></li>
+                                            <li><span>Đừng quên để lại đánh giá sau khi tham gia trải nghiệm <a style="color: #4CB748;" href="https://tinyurl.com/WEBL2">Tại đây nhé!!!</a></span></li>
+                                        </ul>
+                                        <span>Quý ACE có thể thoải mái thực hiện các thao tác trên sàn và chia sẻ ý kiến của mình với Ban dự án EC. Điều này có thể bao gồm việc thử các tính năng mới, tìm kiếm thông tin, mua sắm, hoặc bất kỳ hoạt động nào khác. Ý kiến và phản hồi của quý ACE sẽ giúp Ban dự án hiểu rõ hơn về những gì hoạt động tốt và những điều cần cải thiện.</span><br>
+                                        <span>Hãy tham gia và đừng ngần ngại chia sẻ cho Ban dự án EC những ý kiến của mình nhé!</span><br>
+                                        <span>Hãy cùng nhau tạo nên một chương trình đáng nhớ và thành công nhé!!!</span><br><br>
+                                        <span>
+                                            <i>#trungtamduocpham #trainghiem #thaotacnguoidung #KickOff</i></span><br>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item " style="display: none;">
+                                    <h2 class="accordion-header"  id="headingFour">
+                                      <button class="accordion-button collapsed title-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Kick off chương trình trải nghiệm ứng dụng sàn TMĐT Dược phẩm
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body text-news">
+                                        <br>
+                                        <span class="sub-title-news">Kick-off chương trình trải nghiệm mua sắm online sàn TMĐT Dược phẩm bản Mobile App</span><br>
+                            
+                                        <span>Ban dự án EC rất vui mừng thông báo phiên bản Mobile dành cho các thiết bị di động đã sẵn sang để quý ACE có thể trải nghiệm.</span><br>
+                            
+                                        <span><strong>Thông tin chương trình cụ thể như sau:</strong></span><br>
+                                        <ul>
+                                            <li><span>Thời gian: 15/6/2023-22/6/2023</span></li>
+                                            <li><span>Website: trungtamduocpham.com</span></li>
+                                            <li><span>Hướng dẫn thao tác và nội dung trải nghiệm:  <a style="color: #4CB748;" href="https://drive.google.com/file/d/1E3F9T7yydUiVtPgHmLf23NTcOL2yJIRL/view">Tài liệu</a></span></li>
+                                            <li><span>Đừng quên để lại đánh giá sau khi tham gia trải nghiệm <a style="color: #4CB748;" href="https://tinyurl.com/WEBL2">Tại đây nhé!!!</a></span></li>
+                                        </ul>
+                            
+                                        <span>Quý ACE có thể thoải mái thực hiện các thao tác trên sàn và chia sẻ ý kiến của mình với Ban dự án EC. Điều này có thể bao gồm việc thử các tính năng mới, tìm kiếm thông tin, mua sắm, hoặc bất kỳ hoạt động nào khác. Ý kiến và phản hồi của quý ACE sẽ giúp Ban dự án hiểu rõ hơn về những gì hoạt động tốt và những điều cần cải thiện.</span><br>
+                                        <span>Hãy tham gia và đừng ngần ngại chia sẻ cho Ban dự án EC những ý kiến của mình nhé!</span><br>
+                                        <span>Hãy cùng nhau tạo nên một chương trình đáng nhớ và thành công nhé!!!</span><br>
+                                        <span>
+                                            <i>#trungtamduocpham #trainghiem #thaotacnguoidung #KickOff</i></span><br>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item" style="display: none;">
+                                    <h2 class="accordion-header" id="headingFive">
+                                      <button class="accordion-button collapsed title-text" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Thư cảm ơn
+                                      </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                      <div class="accordion-body text-news">
+                                        <br>
+                                        <span class="sub-title-news">Thư cảm ơn</span><br>
+                                                            
+                                        <span>Đầu tiên, Ban dự án EC xin gửi lời cảm ơn đến tất cả quý ACE đã dành thời gian để tham gia và chia sẻ những ý kiến, đánh giá quý báu của mình. Đó là một chuyến hành trình tuyệt vời và không thể thiếu sự đóng góp của tất cả quý ACE trong đại gia đình GONSA!</span><br>
+                                        <span>Sự đóng góp của quý ACE không chỉ giúp cải thiện sàn TMĐT mà còn thể hiện sự quan tâm và sự đồng hành của quý ACE trong hành trình phát triển của sàn.</span><br>
+                                        <span>Những đóng góp của quý ACE đã đóng vai trò quan trọng và là dấu ấn quan trọng trong việc tạo nên sự thành công của sàn TMĐT Dược phẩm. Mỗi ý kiến đóng góp, từ nhỏ đến lớn, đều có ý nghĩa và tạo ra sự khác biệt.</span><br>
+                                        <span>Đồng thời, Ban dự án EC cũng muốn nhắn nhủ đến tất cả quý ACE rằng Ban dự án EC luôn lắng nghe và đánh giá cao mỗi phản hồi từ quý ACE. Ban dự án EC đã và sẽ tiếp tục làm việc chăm chỉ để nâng cao và đáp ứng tốt hơn nữa các mong muốn về trải nghiệm người dùng trên sàn.</span><br>
+                                        <span>Một lần nữa, từ đáy lòng Ban dự án EC xin chân thành cảm ơn tất cả quý ACE đã tham gia trải nghiệm. Hãy tiếp tục ủng hộ các chương trình trong tương lai của sàn TMĐT cùng Ban dự án EC nhé!!!</span><br>
+                                        <span>#trungtamduocpham #trainghiem #muasamonline #thucamon</span><br>
+                                      </div>
+                                    </div>
+                                </div>                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-3 pd-qtta">
+            <div class="row text-center ">
+                <div class="row mb-3 text-center">
+                    <div class="col-lg-4 offset-lg-4 text_qtta gift-tks"> QUÀ TẶNG TRI ÂN
+                    </div>
+                </div>
+
+                <div class="row mini_panel1 mb-3">
+                    <div class="row">
+                        <p class="trainghiem3" >200 phần quà tri ân khi tham gia trải nghiệm là bộ sản phẩm chăm sóc sức khỏe 2-3 sản phẩm bất kỳ theo danh sách bên dưới</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 pt-3">
+                            <div class="border-card mobile-res">
+                                <span class="card-gift product-name"> XOANGSPRAY H1x20ml</span>
+                                <div class="Gift_card">                        
+                                    <img class="product1" src="/picture/xpray.png" alt="">    
+                                </div>
+                                <div class="MSP">MSP : 0000418</div>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 pt-3">
+                            <div class="border-card mobile-res">
+                                <span class="card-gift product-name">BAO CAO SU CONQ ẨN MÌNH, SIÊU MỎNG H3</span>
+                                <div class="Gift_card">                        
+                                    <img class="product2" src="/picture/condom.png" alt="">  
+                                </div>
+                                <div class="MSP">MSP : 0024468</div>                                                             
+                            </div>                            
+                        </div>
+                        <div class="col-lg-3 pt-3">
+                            <div class="border-card mobile-res">
+                                <span class="card-gift product-name">SIEUSAT GS C60ML DUNG DỊCH (VÒI XỊT)</span>
+                                <div class="Gift_card">
+                                    <img class="product3" src="/picture/sieusat.png" alt="">
+                                </div>
+                                <div class="MSP">MSP : 0024068</div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-3 pt-3">
+                            <div class="border-card mobile-res">
+                                <span class="card-gift product-name">VITAMIN C STELLA 1G H4X4v</span>
+                                <div class="Gift_card">
+                                    <img class="product4" src="/picture/vitaminc.png" alt="">
+                                </div>
+                                <div class="MSP">MSP : 0013202</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>        
+        <hr class="bg-white">
+        <footer class="pt-5 pb-10 my-2 space-footer">
+            <p class="text-center mx-2 text-muted footer-color">CHÂN THÀNH CẢM ƠN QUÝ VỊ ĐÃ DÀNH THỜI GIAN QUÝ BÁU CÙNG THAM GIA TRẢI NGHIỆM.</p>
+            <p class="text-center text-muted footer-color">Mọi thắc mắc xin vui lòng liên hệ: 0937237091 (8:00 đến 17:30) - Từ thứ Hai đến thứ Sáu</p>
+            <p class="text-center text-muted footer-color copyr">Copyright © 2023 CONNECT PHARM. All Rights Reserved</p>
+        </footer>
+    </div>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://www.jqueryscript.net/demo/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+
+<script>
+// $('.counter').countUp();
+$(document).ready(function() {
+    var isExecuted = true;
+    $('.counter').countUp();
+    $(window).scroll(function() {
+    var $window = $(window);
+    var viewportTop = $window.scrollTop();
+    var viewportBottom = viewportTop + $window.height();
+
+    $('.font-number').each(function() {
+        var boxTop = $(this).offset().top;
+        var boxBottom = boxTop + $(this).height();
+
+        if (boxBottom >= viewportTop && boxTop <= viewportBottom && !isExecuted) {
+        // Thực hiện hàm chỉ một lần
+            countToF();
+            isExecuted = true;
+        } else if (boxBottom < viewportTop -100 || boxTop > viewportBottom - 100) {
+        // Đặt lại giá trị isExecuted khi view ra khỏi phạm vi
+        isExecuted = false;
+        }
+    });
+    });
+    function countToF(){
+        $('.counter').countUp();
+    }
+    function yourFunction() {
+        console.log('Your function is executed!');
+        // Thực hiện các hành động của bạn tại đây
+    }
+});
+
+
+// $(document).ready(function() {
+//   $('.counter').waypoint(function() {
+//     countToF();
+//   }, {
+//     offset: '10%'
+//   });
+// });
+
+// $(window).on('scroll',function(){
+//     var scrollDiv = $('.counter');
+//     var scrollDivPosition = scrollDiv.offset().top;
+//     var windowHeight = $(window).height();
+
+//     if (scrollDivPosition < windowHeight) {
+//         countToF();
+//     }
+// })
+</script>
+</body>
+</html>
